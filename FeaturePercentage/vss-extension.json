@@ -96,7 +96,7 @@
   // Screen shots - 1366px x 768px. A partial view of this image appears in the right hand side of the extension detail page in the VS marketplace website. When clicked it opens full size.
   "screenshots": [
     {
-      "path": "artifacts/Screenshot.png"
+      "path": "assets/Screenshot.png"
     }
   ],
 
@@ -197,12 +197,12 @@
 
     // This markdown file contains a full and more detailed description of your extension and appears in the lower half of the extension detail page in the VS marketplace website.
     "details": {
-      "path": "artifacts/Overview.md"
+      "path": "assets/Overview.md"
     },
 
     // This markdown file contains your software licence and appears as a link in the right hand side of the extension detail page in the VS marketplace website.
     "license": {
-      "path": "artifacts/Licence.md"
+      "path": "assets/Licence.md"
     }
   }
 
