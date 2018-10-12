@@ -35,7 +35,9 @@
     <None Include="app\*.*" />
     <None Include="app\*\*.*" />
     <None Include="app\*\*\*.*" />
-    <None Include="artefacts\*.*" />
+    <None Include="artefacts\Licence.md" />
+    <None Include="artefacts\Overview.md" />
+    <None Include="artefacts\Screenshot.png" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
