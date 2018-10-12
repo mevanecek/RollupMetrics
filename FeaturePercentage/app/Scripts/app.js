@@ -14,12 +14,15 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
     var registerWidget = function () {
         return {
             load: function (widgetSettings) {
+                var $title = $('h2.title');
+                $title.text('Percentage Complete');
+
                 return WidgetHelpers.WidgetStatusHelper.Success();
             }
         }
     }
 
-    VSS.register("Your_VSS.register_JavascriptFunctionCallParamaterValue", registerWidget);
+    VSS.register("FeaturePercentage-widget", registerWidget);
 
     VSS.notifyLoadSucceeded();
 });

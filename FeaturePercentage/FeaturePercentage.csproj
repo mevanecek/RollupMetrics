@@ -37,9 +37,12 @@
     <None Include="app\*.*" />
     <None Include="app\*\*.*" />
     <None Include="app\*\*\*.*" />
+    <None Include="vss-extension-commented.json" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Images\logo.png" />
+    <Content Include="app\Images\preview.png" />
     <Content Include="assets\Screenshot.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
