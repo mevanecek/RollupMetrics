@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "FeaturePercentage-widget",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "name": "Feature Percentage Complete",
   "publisher": "MattEVisuals",
   "targets": [

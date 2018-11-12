@@ -26,7 +26,7 @@ VSS.require(["TFS/Dashboards/WidgetHelpers", "TFS/WorkItemTracking/RestClient"],
                         var $list = $('<ul>');
                         $list.append($('<li>').text("Query Id: " + query.id));
                         $list.append($('<li>').text("Query Name: " + query.name));
-                        $list.append($('<li>').text("Created By: " + (query.createdBy ? query.createdBy.displayName : "<unknown>")));
+                        $list.append($('<li>').text("Created By: " + (query.createdBy ? query.createdBy : "<unknown>"))); /* query.createdBy.displayName */
 
                         // Append the list to the query-info-container
                         var $container = $('#query-info-container');
